@@ -1,0 +1,26 @@
+# --- Verilog & SystemVerilog ---
+*.vcd
+*.vvp
+*.out
+
+# --- Logs e arquivos temporários de ferramentas (Vivado/Quartus/Icarus) ---
+*.log
+*.jou
+*.pb
+*.str
+*.rpt
+*.summary
+
+# --- Pastas de saída e compilados ---
+/db/
+/incremental_db/
+/output_files/
+/simulation/
+/work/
+/.Xil/
+
+# --- Sistema e Editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
