@@ -38,6 +38,11 @@ module cu (
                 branch     = 1;
                 alu_op     = 2'b01;
             end
+            6'b001000: begin // ADDI
+                alu_src    = 1;
+                reg_write  = 1;
+                alu_op     = 2'b00;
+            end
             default: begin
                 // Opcode desconhecido
             end
